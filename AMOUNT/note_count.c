@@ -4,7 +4,7 @@ main(){
 	int a50,n50,a20,n20,a10,n10,a5,n5,a2,n2,a1,n1;
 	printf("ENTER TOTAL AMOUNT = ");
 	scanf("%d",&amount);
-	  
+ 	  
 	  n500=amount/500;
 	  a200=amount%500;
 	  n200=a200/200;
