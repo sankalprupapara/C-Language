@@ -1,4 +1,4 @@
-#include<stdio.h>  
+00#include<stdio.h>  
 main() {
     char i,j;
     for (i='A'; i<='E'; i++){
