@@ -8,7 +8,7 @@ main(){
 	scanf("%d",&c);
 	
 	int a[r][c];
-	int b[r][c];
+	
 	
 	printf("\n A matrix\n");
 	for(i=0;i<r;i++){
@@ -17,17 +17,11 @@ main(){
 			scanf("%d",&a[i][j]);
 		}
 	}
-	printf("\n B matrix\n");
-	for(i=0;i<r;i++){
-		for(j=0;j<c;j++){
-			printf("b[%d][%d] :-",i,j);
-			scanf("%d",&b[i][j]);
-		}
-	}
-	printf("\n C matrix\n");	
+
+	printf("\n Transpose matrix\n");	
 		for(i=0;i<r;i++){
 			for(j=0;j<c;j++){
-				printf("%d ",a[i][j]+b[i][j]);
+				printf("%d ",a[j][i]);
 				 
 			}
 			printf("\n");
